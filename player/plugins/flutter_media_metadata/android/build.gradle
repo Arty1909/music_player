@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    // ↓ ОБЯЗАТЕЛЬНО: namespace для AGP 7+/8+
+    namespace "com.alexmercerind.flutter_media_metadata"
+
+    // Подтягиваемся к твоему проекту
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    // Java 8 — требуется для сборки
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    // у плагина внешних зависимостей нет
+}

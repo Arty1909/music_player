@@ -14,3 +14,17 @@ build/
 *.iml
 .idea/
 .vscode/
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/.dart_tool/
+**/build/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/flutter_export_environment.sh
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+*.iml
+.idea/
+.vscode/
