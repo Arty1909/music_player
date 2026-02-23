@@ -28,6 +28,12 @@ A cross-platform Flutter audio player with a glass-style UI, local library impor
 - `hive_flutter` for local storage
 - `flutter_media_metadata` + `dart_tags` for metadata/tags
 
+## Project structure / where is the main code?
+The **main and up-to-date source code** is located here:
+https://github.com/Arty1909/Music_player/tree/main/player
+
+The repository root (**Music_player**, main branch) also contains some older/alternative published versions of the project. They are **optional** and not required to run or understand the app — they are kept only for reference.
+
 ## Try the app (APK)
 If you just want to test the app without building it locally, you can download the Android APK here:
 https://drive.google.com/file/d/1teSIfJoSoTt0Dr1jT3n45P4VI-SUIzkb/view?usp=sharing
